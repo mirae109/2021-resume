@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-width: fit-content;
+}
+/* .profile-img{
+  text-align: right;
+  float: right;
+} */
+
+h3{
+  font-family: NanumSquare;
+  font-size: 20px;
+  font-weight: bold;
+  color: #707070;
+  line-height: 10px;
+  text-align: left;
+}
+.co1{
+  font-family: NanumSquare;
+  color: #ff16ba;
+  font-weight:900;
+}
+.co2{
+  display: inline;
+  color: #ffc017;
+}
+.name-text{
+  color: #707070;
+  text-align: left;
+}
+
+h2 {
+  font-size: 20px;
+  color: #282828;
+  font-weight: lighter;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 5px;
+}
+
+.about-me-text {
+  color: #707070;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 58px 0 0 0;
+}
+
+.t1{
+  color: #707070;
+  font-family: NanumSquare;
+}
+.t2{
+  color: #707070;
+  font-family: NanumSquare;
+  padding: 58px 0 10px 0;
+}
+.t3{
+  color: #707070;
+  font-family: NanumSquare;
+  padding: 58px 0 10px 0;
+}
+
+.progress-text {
+  display:inline;
+  color: #707070;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 58px 0 60px 0;
+  font-weight: bold;
+}
+.emo-img{
+  width: 20px;
+}
+.con-img img{
+  width: 40px;
+  margin-right: 30px;
+}
+
+
+
+
+/* B */
+.card-title{
+  font-family: NanumSquare;
+  font-weight: bold;
+}
+.row{
+  margin: 0 100px
+}
+/* .col-sm-5 {
+  max-width: 36%; !important
+} */
+.card-text{
+  color: #707070;
+  font-family: NanumSquare;
+}
+.bt{
+  color: #707070;
+  text-decoration: none;
+}
+.bt:hover{
+  color: #0f0f0f;
+  text-decoration: none;
+}
+.app-img{
+  width: 40px;
+}
+.app-img2{
+  width: 50px;
+}
+
+
+/*  */
+.progress-wrap{
+  margin-bottom: 100px;
+}
+.float-left{
+  margin-right: 10px;
+}
+
+.progress-wrap h3{
+  font-size: 16px;
+  font-family: "Quicksand", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.progress {
+  height: 6px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #f2f3f7;
+  overflow: visible;
+}
+/* .progress-bar.color-1 {
+  background: #db61c7;
+}
+.progress-bar.color-2 {
+  background: #db61c7;
+} */
+.progress-bar {
+  /* background: #2c98f0; */
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 600;
+  text-align: right;
+  position: relative;
+  overflow: visible;
+  -webkit-border-radius: 8px;
+  /* -moz-border-radius: 8px;
+  -ms-border-radius: 8px; */
+  border-radius: 8px;
+}
+.progress-bar.color-1 span {
+  color: #000000;
+}
+.progress-bar span {
+  /* position: absolute; */
+  top: -22px;
+  right: 0;
+}
+.progress-bar.color-1:after {
+  /* background: #2c98f0; */
+}
+.progress-bar:after {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  content: '';
+  /* background: #2c98f0; */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+/*  */
+.progress-wrap p{
+  color: #707070;
+  font-family: NanumSquare;
+  padding: 90px 0 0 0;
+  text-align: left;
+}
+.mainbox {
+  width: 610px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;  
+  margin-left: auto;   
+  border: 1px solid #ebebeb;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title-box {
+  text-align: right;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.float-wrap {
+  overflow: hidden;
+}
+
+.title-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+}
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+
+.desc-text {
+  font-size: 9px;
+}
+
+.desc-subtext {
+  font-size: 9px;
+  color: #282828;
+  padding-left: 16px;
+}
+
+.sns-img {
+  width: 12px;
+  height: 12px;
+}
+
+.sns-wrap {
+  text-align: right;
+}
+
+.profile-img {
+  float: left;
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  font-size: 12px;
+  color: #919191;
+}
